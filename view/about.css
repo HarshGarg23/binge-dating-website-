@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    padding: 20px;
+    background-color: #fafafa;
+}
+.navi
+{
+     margin: 10px;
+     padding: 10px;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+#homelink
+{
+    color: burlywood;
+    text-decoration: none;
+}
+#aboutlink
+{
+    color: coral;
+    text-decoration: none;
+}
+
+img
+{
+    border-radius: 15px 50px 30px 5px;
+    width: 44vw;
+    height: 53vh;
+    margin: auto;
+    display: flex;
+}
+body
+{
+    background-color: #ffffff;
+}
+.vision
+{
+    color: #2e2a2b;
+    /* border: 2px solid black;
+    display: flex; */
+}
+footer
+{
+    text-align: center;
+    padding: 20px;
+    word-spacing: 20px;
+    background-color: #fafafa;
+}
+#contact
+{
+    text-decoration: none;
+    color: rgb(163, 119, 62);
+}
+#faq
+{
+    text-decoration: none;
+    color: rgb(163, 119, 62);
+}
+#tndc
+{
+    text-decoration: none;
+    color: rgb(163, 119, 62);
+}
+.fa-facebook {
+    background: #fafafa;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+  .info
+{
+    margin: 2px;
+}
+/* footer
+{
+    color: coral;
+} */
+
+.icons{
+    margin: 0 10px;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.splash{
+    position: fixed;
+    /* display: none; */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffeaf2;
+    /* background: none; */
+    transition: 1s ;
+}
+
+.logo-header{
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    /* transform: translate(-50%,-50%); */
+    color: #ffffff;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+    font-size: 100px;
+}
+
+.logo img{
+    /* filter: invert(1); */
+    z-index: -1;
+}
+
+.logo.active{
+    bottom: 0;
+    opacity: 1;
+    /* transition: ease-in-out 0s; */
+    /* transform: translate(50%,0%); */
+    transition: 2.5s ease-in-out;
+
+}
+
+.logo.fade{
+    bottom: 150px;
+    /* top: -130px;
+    right: 90%; */
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+
+
+}
+
+
+

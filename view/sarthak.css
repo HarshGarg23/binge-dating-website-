@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+}
+.content
+{
+    display: flex;
+}
+.content2
+{
+    display: flex;
+}
+#pagelink
+{
+    text-decoration: none;
+    color: coral;
+}
+header
+{
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.navi
+{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+    border: 2px solid gray  ;
+}
+#homelink
+{
+    color: gray;
+    text-decoration: none;
+}
+#pagelnk
+{
+    color: gray;
+    text-decoration: none;
+}
+#he1
+{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+img
+{
+    border-radius: 50%;
+    width: 15vw;
+    height: 30vh;
+}
+
+.icons{
+    margin: 0 10px;
+}
+footer
+{
+    height:10vh;
+    background-color: #f0f0f0;
+}
+.icons1
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.icons2
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* color: rgba(0, 0, 0, 0.603); */
+}
+.info3
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;  
+    
+}
+p{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#Hello{
+    font-size: 20px;
+}
+#N{
+    font-size: 21px;
+    font-weight: bolder;
+}
+#uni
+{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}

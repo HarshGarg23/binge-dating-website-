@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1{
+    background-color: #fafafa;
+    height: 71px;
+    margin-bottom: 35px;
+    padding: 0px 18px;
+    padding-top: 10px;
+}
+.navbar-brand{
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#pagelink
+{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 20px;
+}
+.main
+{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin-top: -18px;
+}
+#he1
+{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.con1{
+    margin: 26px;
+}
+.msg
+{
+    font-size:17px;
+    margin: 25px;
+}
+.agreement
+{
+    font-weight: bolder;
+}
+.guidelines
+{
+    font-size:17px;
+}
+footer
+{
+    height:10vh;
+    background-color: #ece8e8;
+    text-align: center;
+    
+}
+
+.icons{
+    margin: 0 10px;
+}
+
+
+.footer{
+    height: 76px;
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+}
+.socials{
+    float: right;
+    margin: 23px 25px;
+    display: flex;
+    margin-left: 388px;
+}
+.icon{
+    font-size: 25px;
+    padding: 3px 10px;
+    color: black;
+}
+.uy{
+    margin: 0 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.fh{
+    display: flex;
+    left: 18px;
+    margin: 19px;
+    margin-left: 50px;
+}
+.fh span{
+    margin: 10px 15px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.h6{
+    margin: 5px;
+    letter-spacing: 2px;
+}

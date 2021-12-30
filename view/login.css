@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#box1{
+  display: none;
+  background: #ffeaf2;
+ 
+}
+#change {
+  margin: 22px;
+  margin-bottom: 15px;
+  width: 92%;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+h2 {
+  margin: 10px;
+  font-family:  cursive;
+
+}
+span a {
+  color: black;
+}
+
+.container {
+  text-align: center;
+  margin: 0px 20px;
+  text-align: center;
+}
+#box {
+  width: 30%;
+  text-align: center;
+  /* border: 2px solid black; */
+  margin: auto;
+  padding: 0 14px;
+  overflow: hidden;
+  height: 94vh;
+  display: none;
+  top: 2%;
+  left: 36%;
+  position:fixed;
+  box-shadow: grey grey;
+  animation: animate 0.3s ease-in;
+  transition: all 300ms ease-in-out;
+  /* transform: translate(-50%,-50%) scale(1); */
+  border-radius: 20px;
+}
+
+
+.buttons {
+  margin: 12px;
+}
+.btn {
+  padding: 6px 12px;
+  border-radius: 24px;
+  margin: 10px;
+  text-transform: uppercase;
+  width: 85%;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+}
+.btn1 {
+  padding: 8px 10px;
+  margin: 4px;
+  color: white;
+  box-shadow: none;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.btn1 img {
+  width: 26%;
+}
+.img {
+  width: 30px;
+  border-radius: inherit;
+  float: left;
+}
+.dwld {
+  color: black;
+  position: relative;
+  top: -27px;
+  font-size: 16px;
+}
+.download {
+  display: flex;
+}
+a {
+  color: black;
+}
+.lg {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+}
+hr {
+  margin: auto;
+  width: 92%;
+}
+.trouble {
+  margin: 10px;
+}
+.crox img{
+    width: 25px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    left: 4px;
+    transition: ease 1s ;
+    transform: rotate(-90deg);
+
+    
+}
+.crox img:hover{
+    transition: ease-in-out 1s ;
+    transform: rotate(90deg);
+}
+
+/* @keyframes animate {
+  0%{
+    height: 0%;
+    width: 0%;
+  }
+  100%{
+    height: 90%;
+    width: 30%;
+  }
+  
+} */
+
+@keyframes animate {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
